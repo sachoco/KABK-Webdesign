@@ -7,8 +7,8 @@
 	<p>
 <?php
 
-/* 	$xxx = Variable; a basket where you can hold data */
-	$satoshi = "happy"; // or "sad"
+/* 	$_GET variable get values from url e.g. filename.php?satoshi=happy */
+	$satoshi = $_GET["satoshi"];
 	
 /* 	Let's user the "IF" statement */
 	if($satoshi=="happy"){
